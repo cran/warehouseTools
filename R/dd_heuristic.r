@@ -35,13 +35,13 @@
 #'                        0, 4, 11, 0, 10, 11, 0, 1, 5, 11, 0, 4, 11, 0, 4,
 #'                        11), ncol = 2, byrow = FALSE,
 #'                        dimnames = list(NULL, c("x", "y")))
-#' semi_optimal_heuristic(coordinates)
+#' dd_heuristic(coordinates)
 #'
 #'
 #' @seealso \code{\link{midpoint_heuristic}}, \code{\link{return_heuristic}}, \code{\link{sshape_heuristic}}
 #'
 #' @export
-semi_optimal_heuristic <- function(coordinates, arcs = NULL) {
+dd_heuristic <- function(coordinates, arcs = NULL) {
   if (is.null(arcs)) {
     arcs <- create_arcs(coordinates)
   }
