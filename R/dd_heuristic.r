@@ -61,11 +61,11 @@ dd_heuristic <- function(coordinates, arcs = NULL) {
   # counting empty aisle to last not empty aisle
   warehouse_width_actual = warehouse_width_reduced
   pstart <- Sys.time()
-  if (!is.null(empty_aisles)) {
+  if ((!is.null(empty_aisles)) && length(empty_aisles)>0) {
     changed <- changed[-(empty_aisles)]
   }
   empty_aisles =  empty_aisles[empty_aisles < warehouse_width_reduced]
-  if (!is.null(empty_aisles)) {
+  if ((!is.null(empty_aisles)) && length(empty_aisles)>0) {
     mapping_not_empty <- (1:warehouse_width_reduced)[-empty_aisles]
     warehouse_width_reduced = warehouse_width_reduced - length(empty_aisles)
   } else{

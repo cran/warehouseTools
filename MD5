@@ -1,8 +1,8 @@
-ed8168e76b62649186b521b625f7d161 *DESCRIPTION
+4685545d1516e33636cdf3090440d45b *DESCRIPTION
 b3a1b96df299afb94654a43cccb76e70 *NAMESPACE
 6f40cb8f7cebe7330a10341cdac18996 *R/chart_warehouse_route.R
 5bbc3b0ffb5875eb68104a8ebff4c264 *R/copras_assignment.r
-8e14d94f6bad7a99030a8c0f1bf9ec83 *R/dd_heuristic.r
+b86ae32217c91663c29831b031b31453 *R/dd_heuristic.r
 c1071ba62f03e58dff0d2df570b606c3 *R/generate_sample_goods_and_locatons_scenario.R
 1ad21061695e755b767acfda882d416b *R/helpers.R
 bd575bcc348118ed5507d4e0f4da7599 *R/heuristics.R
